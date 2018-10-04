@@ -1,24 +1,26 @@
 {
-  "name": "apirest",
+  "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto Goomer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/feofranca/apirest.git"
-  },
-  "author": "",
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Felipe França",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/feofranca/apirest/issues"
-  },
-  "homepage": "https://github.com/feofranca/apirest#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.2.18"
+    "mongoose": "^5.3.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
